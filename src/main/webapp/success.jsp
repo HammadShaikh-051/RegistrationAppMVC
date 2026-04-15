@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Success</title>
 </head>
 <body>
-
+	<h1><marquee>Registration Successful!</marquee></h1>
+	
+	<% String name = (String) session.getAttribute("name"); %>
+	<h2>Hey <%= name %>, you have registered to this WebApp Successfully!</h2>
 </body>
 </html>
